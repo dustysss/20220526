@@ -1,0 +1,70 @@
+.box1{
+		font-size: 20px;
+		font-family: 나눔고딕,NanumGothic,돋음,Dotum;
+	}
+
+.box1 .title{
+		font-weight: bold;
+}
+.ex1{
+		font: 15px NanumGothic, sans-serif;
+}
+.ex2{
+		font: italic bold 15px/30px Dotum, sans-serif;
+	}
+
+#box1 {
+    background-color:red;
+}
+#box2 {
+    background-color:#eb5656;
+    width:200px;
+}
+#box3 {
+    width: 1280px;
+    height: 720px;
+    background-image: url("red.jpg");
+}
+
+.border-styles > p {
+    margin: 2px 0;
+    padding: 1px 3px;
+    border-width: 2px;
+    border-color: #ef6f6f;
+}
+
+#box4 {
+    border: 4px dotted lightgray;
+    border-bottom: 5px solid red;
+display: none;
+}
+
+#box5 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f28c8c;
+    border-radius: 10px;
+}
+
+.block1{
+    width:300px;
+    border: 3px solid #333;
+    display: inline-block;
+}
+.block2{
+    width:200px;
+    border: 3px solid #999;
+    display: inline-block;
+}
+
+.float-trasheater{
+    width: 450px;
+    border: 2px solid #cb4d4d;
+}
+
+.float-consturter img{
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #cb4d4d;
+}
